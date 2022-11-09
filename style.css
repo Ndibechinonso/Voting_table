@@ -1,0 +1,85 @@
+
+*{
+  padding: 0;
+  margin: 0;
+font-family: Arial, Helvetica;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+body, html{
+margin: auto;
+max-width: 1440px;
+
+}
+a{
+  text-decoration: none;
+}
+main{
+  text-align: center;
+}
+.logo_div{
+  padding: 16px 0;
+  border-bottom: 2px solid rgba(243,244,246, 1);
+
+}
+.content{
+  max-width: 700px;
+  width: 100%;
+  border: 1px solid #e7edf3;
+  box-shadow: 0 0 5px rgb(30 34 37 / 2%);
+  border-radius: 4px;
+padding: 0 9rem;
+margin: 80px auto;
+
+}
+.content_body{
+}
+.header{
+  font-size: 30px;
+  margin: 40px 0 16px;
+}
+.login_link_container span:first-child{
+ color: rgba(107,114,128)
+}
+
+.login_link_container span:last-child a{
+  color: rgba(239,68,68);
+  font-weight: 700;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 64px;
+}
+.form_div{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.form_div input{
+  margin-top: 12px;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(229,231,235,1);
+}
+.form_div input:focus{
+  outline: none;
+}
+.submit{
+  margin-top: 24px;
+  margin-bottom: 80px;
+}
+.submit button{
+  background-color: #fb3440;
+  border: none;
+  outline: none;
+  width: 100%;
+  color:  #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: .125rem;
+  border: 1px solid #da8301!important;
+}
