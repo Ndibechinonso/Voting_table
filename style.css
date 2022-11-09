@@ -21,6 +21,11 @@ main{
   max-width: 700px;
   width: 100%;
   margin: auto !important;
+  border: 1px solid #e7edf3;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgb(30 34 37 / 2%);
+  border-radius: 4px;
+padding: 0 9rem;
 }
 .content_body{
   margin: 80px auto;
